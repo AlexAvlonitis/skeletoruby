@@ -4,9 +4,9 @@ module Skeletoruby
   class ThorCommands < Thor
     desc 'new [Project]', 'It builds a ruby folder structure for a new project'
     def new(project_name)
-      puts 'Project is building...'
+      puts "Project (#{project_name}) is building..."
 
-      SkeletonBuilder.build(project_name)
+      Skeletoruby::SkeletonBuilder.build(project_name)
 
       say 'Done.'
     end

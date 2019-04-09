@@ -1,6 +1,6 @@
 # SKELETORUBY
 
-Builds a basic skeleton for a basic plain ruby project.
+Ruby gem that builds a basic folder structure for a plain ruby project.
 
 **folder structure**
 ```
@@ -18,7 +18,7 @@ Install the gem:
 
 `gem install skeletoruby`
 
-Example command:
+Example bash command:
 
-`skeletoruby new myproject`
+`skeletoruby new project-name`
 
