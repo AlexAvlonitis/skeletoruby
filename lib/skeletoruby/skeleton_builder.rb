@@ -14,8 +14,8 @@ module Skeletoruby
         Skeletoruby::Commands::CreateLib,
         Skeletoruby::Commands::CreateGemfile,
         Skeletoruby::Commands::CreateReadme,
-        Skeletoruby::Commands::InitializeRspec,
         Skeletoruby::Commands::PrepareGemfile,
+        Skeletoruby::Commands::InitializeRspec,
         Skeletoruby::Commands::PrepareReadme
       ]
 
