@@ -7,7 +7,8 @@ Ruby gem that builds a basic folder structure for a plain ruby project.
 -Project-Name
   --bin
   --lib
-  --rspec
+  --spec
+    --spec_helper.rb
   Gemfile
   README.md
 ```
